@@ -1,0 +1,87 @@
+/* some common style */ 
+* /*{box-sizing: border-box;
+border: 1px solid red;}*/
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container div {
+    width: 20%;
+}
+
+img {height: 100%;
+width: 100%;}
+
+.container1 {
+    /*display: flex;
+    justify-content: right;*/
+
+}
+
+      
+
+.container1 {
+
+   display: flex;
+     flex-wrap: row wrap;
+
+}
+
+.container1 > div {
+
+    margin: 10%;
+    width: 500px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.item {
+
+    background: coral;
+    flex: 0 1 100px;
+    padding: 10;
+    text-align: center;
+ 
+}
+
+.item1 {
+
+    background: cyan;
+    flex: 0 1 100px;
+    padding: 10;
+    text-align: center;
+   
+}
+
+.item2 {
+
+    background: green;
+    flex: 0 1 100px;
+    padding: 10;
+    text-align: center;
+}
+
+.item3 {
+
+    background:purple;
+    flex: 0 1 100px;
+    padding: 10;
+    text-align: center;
+     }
+
+.item1{
+
+    background:yellow;
+    flex: 0 1 100px;
+    padding: 10;
+    text-align: center;}
+
+.ct {
+background: salmon;
+text-align: center;
+}
